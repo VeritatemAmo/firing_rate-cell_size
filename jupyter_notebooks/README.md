@@ -4,6 +4,10 @@
 
 * allen_cell_type_access.ipynb
 
+* matching-cell_type-to-cells.ipynb
+** Generate ../result/cell_type.tsv, which contains each cells' feature details as well as e-type, m-type, and me-type of each cell according to Allen Institute's publicaiton on classification Gouwens et al., 2019
+** Generate ../result/cell_type_lite.tsv, which is a lite version of the above file, only containing informative columns and only of cells with assigned me-type
+
 ## Downloaded Tutorial Scripts ##
 
 * cell_types.ipynb is an example downloaded from allen institute's example page for the Allen SDK: https://alleninstitute.github.io/AllenSDK/examples.html on May 17th, 2021
