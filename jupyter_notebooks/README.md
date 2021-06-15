@@ -7,6 +7,7 @@
 * matching-cell_type-to-cells.ipynb
 ** Generate ../result/cell_type.tsv, which contains each cells' feature details as well as e-type, m-type, and me-type of each cell according to Allen Institute's publicaiton on classification Gouwens et al., 2019
 ** Generate ../result/cell_type_lite.tsv, which is a lite version of the above file, only containing informative columns and only of cells with assigned me-type
+** Generate ../result/cell_alias_df.tsv, which adds cell set nomenclature and alias information to the above file. The nomenclature information comes from Allen's Miller et al 2020 eLife paper. 
 
 * neuron_volume.ipynb
 ** Generate ../result/total_volume.tsv
