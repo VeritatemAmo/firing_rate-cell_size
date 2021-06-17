@@ -19,6 +19,10 @@
 ** Generate ../result/nm_Vaa3D_volume.tsv, containing the cell volume calcualted with both methods, only cells with both volume avaliable
 ** Generate ../result/Vaa3D_volume.tsv, containing the cell volume precalcualted from Allen
 
+* merge-volume-FR-nomenclature.ipynb
+** Cells with volume (either Vaa3D or neuron_morphology claculated) and average firing rate avaliable, matched with me-type and nomenclature. Cells without me-type are kept and nomenclature entered as nan. 
+** Generate ../result/volume_FR_nomenclature.tsv, human_volume_FR_nomenclature.tsv, mouse_volume_FR_nomenclature.tsv. 
+
 ## Downloaded Tutorial Scripts ##
 
 * cell_types.ipynb is an example downloaded from allen institute's example page for the Allen SDK: https://alleninstitute.github.io/AllenSDK/examples.html on May 17th, 2021
