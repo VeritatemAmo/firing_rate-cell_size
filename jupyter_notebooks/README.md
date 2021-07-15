@@ -23,6 +23,11 @@
 ** Cells with volume (either Vaa3D or neuron_morphology claculated) and average firing rate avaliable, matched with me-type and nomenclature. Cells without me-type are kept and nomenclature entered as nan. 
 ** Generate ../result/volume_FR_nomenclature.tsv, human_volume_FR_nomenclature.tsv, mouse_volume_FR_nomenclature.tsv. 
 
+* calculate_capacitance.ipynb
+** Calculate each neuron (both human and mouse neurons)'s capacitance based on input resistance ef__ri and the RC time constant ef__tau based on the equation tau=RC 
+** Input ../result/volume_FR_nomenclature.tsv
+** Output ../result/volume_FR_nomenclature_capacitance.tsv and ../result/not_truncated.volume_FR_nomenclature_capacitance.tsv; "not_truncated" refers to neurons not labeled with "truncated" in the "tag__apical" column. Some spiny neurons were labeled with "truncated" because part of the apical dendrite was not captured in morphology scan. 
+
 ## Downloaded Tutorial Scripts ##
 
 * cell_types.ipynb is an example downloaded from allen institute's example page for the Allen SDK: https://alleninstitute.github.io/AllenSDK/examples.html on May 17th, 2021
